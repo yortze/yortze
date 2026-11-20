@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">Damien Isaac PARAISO — développeur fullstack</title>
+  <desc id="desc">Sites et applications sur mesure, de la maquette à la mise en ligne. Alternance, freelance, CDD : disponible dès maintenant.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1280" height="460" rx="28"/></clipPath>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b03e4e" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#b03e4e" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .display{font-family:'Bricolage Grotesque','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:800;letter-spacing:-1.5px}
+      .body{font-family:'Switzer','Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Mono',Consolas,'Liberation Mono',Menlo,monospace;letter-spacing:2px}
+      .spin{transform-origin:1062px 230px;animation:spin 18s linear infinite}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+      @media (prefers-reduced-motion:reduce){.spin,.pulse{animation:none}}
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="460" fill="#101011"/>
+    <path d="M160 0V460M320 0V460M480 0V460M640 0V460M800 0V460M960 0V460M1120 0V460" stroke="#ffffff" stroke-opacity="0.05"/>
+    <circle cx="1062" cy="230" r="270" fill="url(#glow)"/>
+    <circle cx="1062" cy="230" r="150" fill="#17171a"/>
+    <circle cx="1062" cy="230" r="150" fill="none" stroke="#2a2a2f" stroke-width="6"/>
+    <g class="spin">
+      <circle cx="1062" cy="230" r="150" fill="none" stroke="#b03e4e" stroke-width="6" stroke-linecap="round" stroke-dasharray="330 613"/>
+    </g>
+    <g fill="none" stroke="#f2f1ef" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1002 188H1122"/>
+      <path d="M1036 190C1036 238 1031 266 1016 282"/>
+      <path d="M1090 190V258Q1090 282 1114 282"/>
+    </g>
+    <text x="1062" y="432" text-anchor="middle" class="mono" font-size="12" fill="#a3a09b">YDAPI.FR</text>
+
+    <rect x="72" y="50" width="590" height="36" rx="18" fill="#17171a" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle class="pulse" cx="94" cy="68" r="4.5" fill="#b03e4e"/>
+    <text x="110" y="73" class="mono" font-size="13" fill="#a3a09b">ALTERNANCE · FREELANCE · CDD — DISPONIBLE DÈS MAINTENANT</text>
+
+    <text x="70" y="162" class="display" font-size="56" fill="#f2f1ef">Bonjour, je suis</text>
+    <text x="70" y="226" class="display" font-size="56" fill="#b03e4e">Damien Isaac PARAISO<tspan fill="#f2f1ef">,</tspan></text>
+    <text x="70" y="290" class="display" font-size="56" fill="#f2f1ef">développeur fullstack.</text>
+    <text x="72" y="340" class="body" font-size="21" fill="#a3a09b">Sites et applications sur mesure, de la maquette à la mise en ligne.</text>
+
+    <path d="M72 372H840" stroke="#ffffff" stroke-opacity="0.08"/>
+    <g class="mono" font-size="11" fill="#a3a09b">
+      <text x="72" y="404">BASÉ À</text>
+      <text x="290" y="404">EXPÉRIENCE</text>
+      <text x="470" y="404">SPÉCIALITÉ</text>
+    </g>
+    <g class="body" font-size="16" fill="#f2f1ef">
+      <text x="72" y="430">Paris · Lyon, France</text>
+      <text x="290" y="430">Depuis 2022</text>
+      <text x="470" y="430">Fullstack · Robotique &amp; vision</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="459" rx="27.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
